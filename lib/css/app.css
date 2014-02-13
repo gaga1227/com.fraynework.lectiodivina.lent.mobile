@@ -58,7 +58,7 @@ body {
 /* container */
 #nav { 
 	position:absolute; top:0; right:0; width:100%; height:55px; margin:0; padding:0; overflow:hidden;
-	background:#632f83;
+	background:#c57ba3;
 	text-align:center; }
 	
 	/* -------------------------------------------------------------------------- */
@@ -68,7 +68,7 @@ body {
 		color:#fff; }
 	
 	/* interaction */
-	#nav .navItem.active 			{ color:#632f83; background:#fff; }
+	#nav .navItem.active 			{ color:#c67ba3; background:#fff; }
 	#nav .navItem.disabled.active 	{ color:#fff; background:none; }
 	
 	#nav .navItem.current,
@@ -77,17 +77,17 @@ body {
 	/* -------------------------------------------------------------------------- */
 	/* btnMenu */
 	#nav .btnMenu { 
-		display:block; position:absolute; top:0; left:0; width:45px; height:55px; margin:0; padding:0; overflow:hidden;
+		display:block; position:absolute; top:0; left:0; width:55px; height:55px; margin:0; padding:0; overflow:hidden;
 		color:#fff; }
 		
 		/* icon */
 		#nav .btnMenu .icon { 
 			top:0; left:0; width:100%; height:100%;
-			font-size:24px; line-height:55px; }
+			font-size:28px; line-height:55px; }
 			
 	/* interaction */
 	#nav .btnMenu.active { 
-		color:#632f83; background:#fff; }
+		color:#c67ba3; background:#fff; }
 	
 	/* -------------------------------------------------------------------------- */
 	/* btnWeekNav */
@@ -137,20 +137,19 @@ body {
 /* -------------------------------------------------------------------------- */
 /* container */
 .pageHeader {
-	position:absolute; top:0; left:0; width:100%; height:100px; margin:0; padding:0; overflow:hidden; }
+	position:absolute; top:0; left:0; width:100%; height:70px; margin:0; padding:0; }
 
 	/* -------------------------------------------------------------------------- */
 	/* headerTitle */
 	.pageHeader .headerTitle {
-		display:block; width:auto; height:auto; margin:30px 22px 0 22px; padding:0; overflow:hidden;
-		color:#7f439b; text-transform:uppercase;
-		font-family:'LeagueGothic',sans-serif; font-size:35px; font-weight:400; line-height:1em; }
+		display:block; width:auto; height:auto; margin:30px 22px 0 22px; padding:0;
+		color:#c57ba3;
+		font-family:'LeagueGothic',sans-serif; font-size:38px; font-weight:400; line-height:1em; }
 
 /* -------------------------------------------------------------------------- */
 /* responsive */
 @media only screen and (min-width:360px) {
 	/* make title bigger */
-	.pageHeader { height:105px; }
 	.pageHeader .headerTitle { font-size:40px; }
 }
 
@@ -172,7 +171,7 @@ body {
 	/* navItem */
 	.pageNav .navItem {
 		display:block; position:absolute; bottom:0; left:0; width:50%; height:100%; margin:0; padding:0; overflow:hidden;
-		color:#fff; background:rgba(166,117,189,0.7); border-right:1px solid rgba(255,255,255,0.75);
+		color:#fff; background:rgba(198,123,163,0.7); border-right:1px solid rgba(255,255,255,0.75);
 		/*box-sizing*/-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
 	.pageNav .navItem:last-child { 
 		left:auto; right:0; border:none; }
@@ -184,10 +183,10 @@ body {
 		
 	/* interaction */
 	.pageNav .navItem.active { 
-		background:#fff; background:#692c88; }
+		background:#fff; background:#c67ba3; }
 	.pageNav .navItem.disabled,
 	.pageNav .navItem.disabled.active { 
-		color:#666; background:rgba(166,117,189,0.3); border-color:rgba(255,255,255,0.15);
+		color:#666; background:rgba(198,123,163,0.3); border-color:rgba(255,255,255,0.15);
 		pointer-events:none; cursor:default; }
 
 
@@ -284,15 +283,15 @@ body {
 	.contentView h5 			{ font-size:21px; font-weight:400; line-height:1.5em; margin:0 0 1em 0; padding:0 0 0 0; }
 	
 	.contentView h1,
-	.contentView h2				{ color:#a483b6; font-family:'LeagueGothic',sans-serif; }
+	.contentView h2				{ color:#c57ba3; font-family:'LeagueGothic',sans-serif; }
 	
 	.contentView h1.deco		{ 
 		display:inline-block; margin:1px 0 0.8em 0;
 		color:#333; border:1px solid rgba(0,0,0,0.5); border-left:none; border-right:none;
-		font-family:'alegreya',serif; font-size:24px; font-style:italic; line-height:1.6em; }
+		font-family:'alegreya',serif; font-size:21px; font-style:italic; line-height:1.8em; }
 		
 	.contentView h1.landing		{ 
-		margin:40px 0 15px 0; text-transform:uppercase;
+		margin:40px 0 15px 0;
 		font-size:50px; line-height:0.9em; }
 
 	/* text */
@@ -447,7 +446,7 @@ section,
 /* btnCircle */
 .btnCircle {
 	display:block; position:relative; width:75px; height:75px; margin:0; padding:0; overflow:hidden;
-	color:#fff!important; background:#6d378b url(../img/bg-btn-circle@1x.jpg) center center no-repeat; background-size:75px 75px; 
+	color:#fff!important; background:#c57ba3; background-size:75px 75px; 
 	font-family:'LeagueGothic',sans-serif; font-weight:400; 
 	text-transform:uppercase; text-align:center; text-decoration:none!important; 
 	/*border-radius*/-webkit-border-radius:50%; border-radius:50%;
@@ -470,7 +469,7 @@ section,
 	.btnCircle .iconInline { position:relative; font-size:12px; vertical-align:text-top; }
 
 /* interaction */
-.btnCircle.active 			{ color:#6d378b!important; }
+.btnCircle.active 			{ color:#c67ba3!important; }
 .btnCircle.active:before 	{ background:#fff; border:1px solid rgba(255,255,255,1); }
 
 /* custom */
@@ -660,7 +659,7 @@ section,
 			/* -------------------------------------------------------------------------- */
 			/* overlay */
 			#pgWeeks .sectionWrapper [data-role="section"] .overlay { 
-				display:block; position:absolute; bottom:0; right:-20px; width:auto; height:300px; margin:0; padding:0;
+				display:block; position:absolute; top:0; left:0; width:100%; height:100%; margin:0; padding:0;
 				opacity:0;
 				/*transition*/
 				/*-webkit-transform:translate3d(0,0,0);*/
@@ -683,7 +682,7 @@ section,
 			/* -------------------------------------------------------------------------- */
 			/* pageContent */
 			#pgWeeks .pageHeader + .pageContent { 
-				top:100px; bottom:0px;
+				top:70px; bottom:0px;
 				-webkit-transition:top 0s ease-in-out;
 				transition:top 0s ease-in-out; }
 			
@@ -705,9 +704,7 @@ section,
 /* responsive */
 @media only screen and (min-width:360px) {
 	/* make title bigger, move content down */
-	#pgWeeks .pageHeader + .pageContent { top:105px; }
-	/* android */
-	.android #pgWeeks .pageHeader + .pageContent { top:135px; }
+	.android #pgWeeks .pageHeader + .pageContent { top:100px; }
 }
 
 
@@ -735,11 +732,12 @@ section,
 	#pgWeeks [data-role="articleContent"].padded { padding:0 0 0 0; }
 	
 		/* h1 */
-		#pgWeeks [data-role="articleContent"] h1 { display:none; }
+		#pgWeeks [data-role="articleContent"] h1 { 
+			margin:37px 0 0 40px; }
 		
 		/* img */
 		#pgWeeks [data-role="articleContent"] img.h1 { 
-			display:block; width:287px; height:183px; margin:0 0 0 -5px; }
+			display:none; width:287px; height:183px; margin:0 0 0 -5px; }
 	
 		/* articleNav */
 		#pgWeeks [data-role="articleContent"] .articleNav,
@@ -749,15 +747,13 @@ section,
 			font-size:14px; font-style:italic; }
 				
 		/* top gap */
-		#pgWeeks [data-role="articleContent"] .articleNav				{ margin-top:18px; margin-left:40px; }
-		#pgWeeks [data-role="articleContent"] .articleNav#articleNav4,
-		#pgWeeks [data-role="articleContent"] .articleNav#articleNav5 	{ margin-top:-32px; }
+		#pgWeeks [data-role="articleContent"] .articleNav { margin-top:18px; margin-left:40px; }
 		
 			/* a */
 			#pgWeeks [data-role="articleContent"] .articleNav a { 
-				color:#6e288f!important; text-decoration:none; }
+				color:#494641!important; text-decoration:none; }
 			#pgWeeks [data-role="articleContent"] .articleNav a.active { 
-				color:#6e288f!important; text-decoration:underline; }
+				color:#494641!important; text-decoration:underline; }
 		
 		/* btnBottomFixed */
 		#pgWeeks [data-role="articleContent"] .btnBottomFixed {
