@@ -39,3 +39,5 @@
 .fwicon-crown:before 			{ content: "\e007"; }
 .fwicon-book:before 			{ content: "\e008"; }
 .fwicon-info:before 			{ content: "\e009"; }
+.fwicon-cross:before 			{ content: "\e00a"; }
+.fwicon-menu:before 			{ content: "\e00b"; }
