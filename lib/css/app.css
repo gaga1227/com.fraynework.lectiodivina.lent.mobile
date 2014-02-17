@@ -742,10 +742,13 @@ section,
 		/* h1 */
 		#pgWeeks [data-role="articleContent"] h1 { 
 			margin:37px 0 0 40px; }
+			
+			/* break - remove line break by default */
+			#pgWeeks [data-role="articleContent"] h1 > .break { display:none; }
 		
 		/* img */
 		#pgWeeks [data-role="articleContent"] img.h1 { 
-			display:none; width:287px; height:183px; margin:0 0 0 -5px; }
+			display:none; /*width:287px; height:183px; margin:0 0 0 -5px;*/ }
 	
 		/* articleNav */
 		#pgWeeks [data-role="articleContent"] .articleNav,
@@ -773,6 +776,10 @@ section,
 	/* increase link size */
 	#pgWeeks [data-role="articleContent"] .articleNav,
 	#pgWeeks [data-role="articleContent"] .articleNav li { font-size:16px; }
+}
+@media only screen and (min-height:540px) {
+	/* show line-break for taller screens */
+	#pgWeeks [data-role="articleContent"] h1 > .break { display:inherit; }
 }
 
 
